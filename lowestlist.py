@@ -8,15 +8,5 @@ try:
 except:
 	e=0
 
-c=b[0]
-for i in range(a):
-	for j in range(a):
-		z=int(b[i])-int(b[j])
-		if z>0:
-			d=b[j]
-		else:
-			d=b[i]
-			y=int(d)-int(c)
-	if y>0:
-			c=d
+c=min(b)
 print(c)
