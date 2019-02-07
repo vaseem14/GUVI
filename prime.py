@@ -1,6 +1,7 @@
 while True:
 	try:
 		a=input()
+		
 		a=int(a)
 		break
 	except:
