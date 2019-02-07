@@ -6,9 +6,12 @@ while True:
 		print("Invalid input")
 		break
 b=0
-for x in range(a):
-	b=a+a
-	c=b+a
-	d=c+a
-	e=d+a
-print(a,b,c,d,e)
+if(a>0):
+	for x in range(a):
+		b=a+a
+		c=b+a
+		d=c+a
+		e=d+a
+	print(a,b,c,d,e)
+else:
+	print("0 0 0 0 0")
