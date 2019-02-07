@@ -6,6 +6,9 @@ while True:
 		print("Invalid input")
 		break
 b=1
-for x in range(2,a):
-	b=b*x
-print(b*a)
+if a==0:
+	print('1')
+else:
+	for x in range(2,a):
+		b=b*x
+	print(b*a)
