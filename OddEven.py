@@ -5,7 +5,7 @@ while True:
 	except:
 		print("Invalid input")
 		break
-if x%2:
+if x%2==0:
 	print('Even')
 else:
 	print('Odd')
