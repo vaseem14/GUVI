@@ -7,4 +7,6 @@ try:
 		b=int(b)
 except:
 	e=0
-print(sorted(b,key=int))
+b=sorted(b,key=int)
+for x in range(a):
+	print(b[x],end=" ")
