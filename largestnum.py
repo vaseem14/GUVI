@@ -1,8 +1,9 @@
 while True:
 	try:
-		a = int(input())
-		b = int(input())
-		c = int(input())
+		a, b, c= raw_input().split( )
+		a=int(a)
+		b=int(b)
+		c=int(c)
 		break
 	except:
 		print("Invalid input")
