@@ -8,5 +8,6 @@ for x in range(0,len(a),2):
 	b[i]=b[i+1]
 	b[i+1]=t
 	i=i+2
-print(b)
+for x in range(len(a)):
+	print(b[x],end="")
 	
