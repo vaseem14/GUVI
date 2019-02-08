@@ -15,7 +15,11 @@ int main(void) {
     a[b-1]=temp;
  for(i=0;i<b;i++)
     {
-        printf("%d ",a[i]);
+        printf("%d",a[i]);
+        if(i!=b-1)
+        {
+        	printf(" ");
+        }
     }
 	return 0;
 }
