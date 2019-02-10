@@ -1,5 +1,7 @@
 while True:
 	try:
+		x=input()
+		x=int(x)
 		a=input().split()
 		break
 	except:
@@ -11,5 +13,8 @@ for i in range(len(a)):
 		if (i!=j):
 			if (a[i]==a[j]):
 				b.append(a[i])
-b=list(set(b))
-print(' '.join(str(x) for x in b))
+if (len(a)==x):
+	b=list(set(b))
+	print(' '.join(str(x) for x in b))
+else:
+	print("Invalid input")
