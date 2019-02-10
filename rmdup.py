@@ -6,5 +6,6 @@ while True:
 	except:
 		print("Invalid input")
 		break
-a=list(set(a))
+a=set(a)
+a=sorted(a)
 print(''.join(str(x) for x in a))
